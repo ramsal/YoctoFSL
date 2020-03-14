@@ -72,3 +72,12 @@ $ bitbake fsl-image-qt5
 │   │   ├──meta-swupdate          
 │   │   ├──meta-variscite-imx
 ```
+## SDK + Toolchain
+http://variwiki.com/index.php?title=Yocto_Toolchain_installation
+```
+$ bitbake meta-ide-support
+$ bitbake meta-toolchain
+$ bitbake -c populate_sdk fsl-image-gui
+```
+
+
