@@ -5,7 +5,7 @@ yocto-1.6.1/poky-daisy-11.0.1.tar.bz2
 # tar jxf poky-daisy-11.0.1.tar.bz2
 ```
 ```
-# source poky-daisy-11.0.1/oe-init-build-env raspberry-pi-build //variables de entorno para la imagen
+# source poky-daisy-11.0.1/oe-init-build-env  //variables de entorno para la imagen
 # bitbake core-image-minimal  //Contruimos la imagen
 ```
 ```
