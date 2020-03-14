@@ -85,7 +85,7 @@ INHERIT += "extrausers"
 #Creación de usuarios con sus credenciales
 EXTRA_USERS_PARAMS = "useradd admin; \
                       usermod -p $(openssl passwd abc123) admin; \
-                      usermod -p $(openssl passwd Adobo22) root; \
+                      usermod -p $(openssl passwd passw22) root; \
                      "
 USER_CLASSES ?= "buildstats image-mklibs image-prelink"
 
