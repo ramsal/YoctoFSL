@@ -1,8 +1,6 @@
 # Configuración Básica Yocto
 ```
-# wget http://downloads.yoctoproject.org/releases/yocto/\
-yocto-1.6.1/poky-daisy-11.0.1.tar.bz2
-# tar jxf poky-daisy-11.0.1.tar.bz2
+# git clone -b morty git://git.yoctoproject.org/poky.git
 ```
 ```
 # source poky-daisy-11.0.1/oe-init-build-env  //variables de entorno para la imagen
