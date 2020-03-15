@@ -3,7 +3,7 @@
 # git clone -b morty git://git.yoctoproject.org/poky.git
 ```
 ```
-# source poky-daisy-11.0.1/oe-init-build-env  //variables de entorno para la imagen
+# source oe-init-build-env  //variables de entorno para la imagen
 # bitbake core-image-minimal  //Contruimos la imagen
 ```
 ```
