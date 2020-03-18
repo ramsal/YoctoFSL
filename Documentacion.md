@@ -8,6 +8,8 @@
 
 
 ## Rutas de configuración
+- [ ] /home/bee/var-fsl-yocto/sources/meta-fsl-bsp-release/imx/meta-sdk/recipes-fsl/images/fsl-image-gui.bb
+
 - [ ] /home/bee/var-fsl-yocto/sources/meta-freescale/recipes-dpaa/eth-config/eth-config_git.bb
 
 - [ ] /home/bee/var-fsl-yocto/sources/meta-openembedded/meta-networking/recipes-connectivity/networkmanager/networkmanager_1.10.6.bb
