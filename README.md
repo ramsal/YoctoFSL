@@ -80,4 +80,13 @@ $ bitbake meta-toolchain
 $ bitbake -c populate_sdk fsl-image-gui
 ```
 
-
+## Build Essential
+/home/bee/var-fsl-yocto/sources/meta-fsl-bsp-release/imx/meta-sdk/recipes-fsl/images/fsl-image-gui.bb
+```
+IMAGE_INSTALL += " \
+    cpufrequtils \
+    nano \
+    g++ \
+    packagegroup-core-buildessential \
+    "
+```
