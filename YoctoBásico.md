@@ -10,6 +10,7 @@
 # runqemu qemux86   //lanzamos la imagen con Qemu
 # runqemu qemux86 nographic   //alternavida solo consola
 
+#nano ../meta/conf/bitbake.conf //editar tamaño imagen
 ```
 ```
 #vi /etc/apt/sources.list
@@ -27,6 +28,7 @@
 
 #touch /var/lib/dpkg/status
 ```
+
 
 ## Estructura principal de Poky
 ```
