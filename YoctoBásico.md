@@ -37,6 +37,8 @@
     nameserver 8.8.4.4
 
 #apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 40976EAF437D05B5
+
+#touch /var/lib/dpkg/status
 ```
 
 ## Estructura principal de Poky
