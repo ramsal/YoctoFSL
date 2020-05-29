@@ -12,7 +12,7 @@
 
 ```
 ```
-Añadir repos
+#vi /etc/apt/source.list
     # See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
     # newer versions of the distribution.
     deb http://us.archive.ubuntu.com/ubuntu/ xenial main restricted
@@ -31,10 +31,12 @@ Añadir repos
     deb http://us.archive.ubuntu.com/ubuntu/ xenial-updates universe
     # deb-src http://us.archive.ubuntu.com/ubuntu/ xenial-updates universe
 
-vi /etc/resolv.conf
+#vi /etc/resolv.conf
     nameserver 1.1.1.1
     nameserver 8.8.8.8
     nameserver 8.8.4.4
+
+#apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 40976EAF437D05B5
 ```
 
 ## Estructura principal de Poky
