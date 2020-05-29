@@ -12,24 +12,11 @@
 
 ```
 ```
-#vi /etc/apt/source.list
-    # See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
-    # newer versions of the distribution.
+#vi /etc/apt/sources.list
     deb http://us.archive.ubuntu.com/ubuntu/ xenial main restricted
-    # deb-src http://us.archive.ubuntu.com/ubuntu/ xenial main restricted
-
-    ## Major bug fix updates produced after the final release of the
-    ## distribution.
     deb http://us.archive.ubuntu.com/ubuntu/ xenial-updates main restricted
-    # deb-src http://us.archive.ubuntu.com/ubuntu/ xenial-updates main restricted
-
-    ## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
-    ## team. Also, please note that software in universe WILL NOT receive any
-    ## review or updates from the Ubuntu security team.
     deb http://us.archive.ubuntu.com/ubuntu/ xenial universe
-    # deb-src http://us.archive.ubuntu.com/ubuntu/ xenial universe
     deb http://us.archive.ubuntu.com/ubuntu/ xenial-updates universe
-    # deb-src http://us.archive.ubuntu.com/ubuntu/ xenial-updates universe
 
 #vi /etc/resolv.conf
     nameserver 1.1.1.1
