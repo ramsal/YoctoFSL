@@ -28,6 +28,10 @@
 
 #touch /var/lib/dpkg/status
 ```
+Añadir meta
+```
+bitbake-layers add-layer ../sources/meta-openembedded/meta-oe/
+```
 
 
 ## Estructura principal de Poky
