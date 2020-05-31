@@ -143,3 +143,5 @@ BBLAYERS ?= " \
   /home/bee/poky/meta-openembedded \
   "
 ```
+
+info: https://www.youtube.com/watch?v=6jDY2jj3DJc  HOB configurator yocto
