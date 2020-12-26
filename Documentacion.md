@@ -4,7 +4,7 @@
 ## URLs
 - [ ] https://community.nxp.com/docs/DOC-94967
 - [ ] https://wiki.phytec.com/productinfo/how-to-articles/how-to-add-packages-to-your-bsp-from-an-existing-recipe
-
+- [ ] punto de acceso y FW https://www.konsulko.com/building-a-diy-soho-router-using-the-yocto-project-build-system-openembedded-part-3/
 
 
 ## Rutas de configuración
