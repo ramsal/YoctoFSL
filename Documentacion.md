@@ -5,6 +5,7 @@
 - [ ] https://community.nxp.com/docs/DOC-94967
 - [ ] https://wiki.phytec.com/productinfo/how-to-articles/how-to-add-packages-to-your-bsp-from-an-existing-recipe
 - [ ] punto de acceso y FW https://www.konsulko.com/building-a-diy-soho-router-using-the-yocto-project-build-system-openembedded-part-3/
+- [ ] habilitar iptables https://forum.rocketboards.org/t/enable-iptables-module-on-linux-kernel-3-19-running-on-altera-cyclone-v-soc-boar-bsp-yocto/354
 
 
 ## Rutas de configuración
